@@ -1,0 +1,165 @@
+
+body{
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(https://assets.nflxext.com/ffe/siteui/vlv3/d7af077c-af5a-4055-8f9a-740a43588583/95bae10c-9773-4447-af4e-612a244231bd/IN-en-20230717-popsignuptwoweeks-perspective_alpha_website_large.jpg);
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(0, 0, 0);
+    color: rgb(231, 227, 227); 
+    background-size: 1540px 768px;
+    background-repeat: no-repeat;
+
+
+}
+
+nav{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+}
+nav .img img{
+    width: 112%;
+   height: 100px;
+   padding-right: 35px;
+}
+nav .btn{
+    display: flex;
+    margin-top: 12px;
+}
+
+.btn .eng{
+    width: 110px;
+    height: 40px;
+    background-color: rgb(17, 16, 16);
+    color: white;
+    font-size: 19px;
+    border: 2px solid rgb(200, 195, 195);
+    border-radius: 3px;
+   
+}
+.btn .eng:hover{
+    background-color: transparent;
+}
+
+.btn .cost:hover{
+ 
+ border: 2px solid rgb(225, 25, 25);
+
+}
+.btn .cost{
+    width: 110px;
+    height: 40px;
+    background-color: rgba(245, 10, 10, 0.911);
+    color: rgb(228, 224, 224);
+    font-size: 15px;
+   border-radius: 3px;
+   
+}
+.btn .eng{
+    margin-inline: 22px;
+}
+.main{
+    text-align: center;
+}
+.main h1{
+    font-size: 60px;
+}
+.main h3{
+    font-size: 34px;
+}
+.main p{
+    font-size: 27px;
+} 
+.input{
+    display: flex;
+    justify-content: center;
+}
+.input input{
+    width: 400px;
+    height: 58px;
+    border: none;
+    font-size: 22px;
+}
+.input button{
+    width: 200px;
+    height: 60px;
+    background-color: red;
+    color: rgb(255, 252, 252);
+    font-size: 26px;
+    border: none;
+    border-radius: 6px;
+}
+.input .email{
+    border-radius: 6px;
+    margin-inline: 9px;
+    background-color: rgb(248, 244, 244);
+   
+}
+.first{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    margin-top: 330px;
+    padding: 56px;
+    border-top: 2px solid gray;
+}
+.first h1{
+    font-size: 64px;
+}
+.first p{
+    font-size: 25px;
+}
+.first img{
+    width: 60%;
+}
+.buttons{
+    justify-content: center;
+    justify-content: space-around;
+    font-size: 30px;
+    text-align: center;
+}
+.step10{
+    text-align: center;
+    font-size: 20px;
+}
+.step11 input{
+    width: 400px;
+    height: 58px;
+    border: 2px solid green;
+    border-radius: 5px;
+    font-size: 22px;
+    margin: 10px 0px 40px 50px;
+    background-color: rgb(44, 44, 62);
+
+}
+.step11 button{
+    width: 200px;
+    height: 60px;
+    background-color: red;
+    color: rgb(255, 252, 252);
+    font-size: 26px;
+    border: none;
+    border-radius: 6px;
+}
+.buttons button{
+    width: 1200px;
+    height: 82px;
+    background-color: rgb(47, 44, 44);
+    color: white;
+    font-size: 25px;
+    margin: 4px;
+   text-align: left;
+   padding: 20px;
+
+}
+.footer{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    padding: 44px;
+    text-underline-position: 44px;
+    border-top: 4px solid gray;
+    margin-top: 33px;
+}
+.last{
+    padding: 207px;
+   
+}
